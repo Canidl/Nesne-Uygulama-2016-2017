@@ -1,16 +1,12 @@
 
 package UygulamaSinavi_1_1;
 
-import UygulamaSinavi_1_0.Matris;
-
 /**
  *
  * @author Battal Faik Aktaş
  */
-public class MatrisIslemleri 
-     
+public class MatrisIslemleri    
 {
-    
     public boolean  matrisKontrol(int matris1[][],int matris2[][])
     {
         boolean donecek=false;
@@ -32,6 +28,7 @@ public class MatrisIslemleri
         return sonuc;
        
     }
+    
      public int[][] cikarma(int matris1[][],int matris2[][])
     {
         
